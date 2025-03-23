@@ -1,0 +1,7 @@
+name: ModernChatInjector
+version: ${version ?: 'unknown'}
+main: dev.mdcfe.modernchatinjector.ModernChatInjector
+api-version: '1.13'
+
+depend: [PlaceholderAPI]
+softdepend: [Essentials, EssentialsChat]
