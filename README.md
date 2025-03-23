@@ -3,6 +3,14 @@
 A drop-in replacement for ChatInjector, now with built-in support for EssentialsX Chat 2.21.0, as well as older
 versions.
 
+## Usage
+
+Install ModernChatInjector alongside PlaceholderAPI, any expansions you need, and your chat formatter of choice.  
+Then, add PlaceholderAPI placeholders within your chat formatting plugin using the following syntax:
+`{placeholder_name}`.
+
+Note that you need to use `{` and `}` around the placeholders, *not* `%` symbols like you might expect! 
+
 ## How does it work?
 
 On EssentialsX 2.20.0 and above, ModernChatInjector hooks EssentialsX Chat's own chat events to ensure PlaceholderAPI
